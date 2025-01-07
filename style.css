@@ -103,15 +103,6 @@ a:hover{
 .mobile-icon.open span:last-child{
     transform: rotate(-45deg) translate(10px, -5px);
 }
-.mobile-icon span:first-child{
-    transform: none;
-}
-.mobile-icon span:first-child{
-    opacity: 1;
-}
-.mobile-icon span:first-child{
-    transform: none;
-}
 /* section */
 section{
     padding-top: 4vh;
