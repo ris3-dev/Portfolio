@@ -1,0 +1,62 @@
+@media screen and (max-width: 1200px) {
+    #desktop-mode{
+        display: none;
+    }
+    #mobile-view{
+        display: flex;
+    }
+    #skills, .skills-details-container{
+        display: block;
+    }
+    #profile-section, .section-container{
+        display: block;
+    }
+    .about-containers{
+        margin-top: 0;
+    }
+    section{
+        margin: 0 5%;
+    }
+    section, 
+    .section-container{
+        height: fit-content;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    #contact, 
+    footer{
+        height: 40vh;
+    }
+    #profile-section{
+        height: 13vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer-nav{
+        height: fit-content;
+        margin-bottom: 5rem;
+    }
+    .about-containers,
+    .contact-info,
+    .btn-container{
+       flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width: 1400px){
+    #profile-section{
+        height: 93vh;
+        margin-bottom: 5rem;
+    }
+    .about-containers{
+        flex-wrap: wrap;
+    }   
+    #contact,
+    #project{
+        height: fit-content;
+    }
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishi's Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-mode">
+        <div class="home-page">Rishi</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobile-view">
+        <div class="home-page">Rishi Thapa</div>
+        <div class="mobile-menu">
+            <div class="mobile-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" ondblclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" ondblclick="toggleMenu()">Skills</a></li>
+                <li><a href="#project" ondblclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" ondblclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+   
+    <section id="profile-section">
+        <div class="text-section">
+            <p class="text-section2">Hello I'am</p>
+            <h1 class="title">Rishi Thapa</h1>
+            <p class="text-section3">Aspiring to be a software developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color1" onclick="window.open('./images/Rishi_Thapa_CV _Soft_dev.pdf')">Download CV</button>
+                <button class="btn btn-color2" onclick="location.href='#contact'">Contact Info</button>
+            </div>
+            <div class="social-container">
+                <img src="./images/github.png" alt="github logo" class="social-icon" onclick="window.open('https://github.com/ris3-dev?tab=repositories', '_blank')">
+                <img src="./images/linkedin.png" alt="linkedin logo" class="social-icon" onclick="window.open('https://www.linkedin.com/in/rishi-t-51639a244/', '_blank')">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="text-section2">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./images/experience.png" alt="skills pic" class="icon">
+                        <h3>Skills</h3>
+                        <p>HTML, CSSS, JavaScript, SQL, Python</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./images/education.png" alt=" education pic" class="icon"/>
+                        <h3>Education</h3>
+                        <p>Farnborough Sixth Form college (BTECT IT, level 3 Business, Social Care) <br>Fernhill School (7 GCSEs A-C grades in subjects including Maths, English and IT)</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Hello, my name is Rishi. I’m currently participating in a 12-week software development boot camp. This is my first experience tackling a project of this scale. Previously, I worked primarily with HTML and CSS during a college project, where I developed a website enabling users to browse online courses. That project was a success, as it earned me strong grades. However, this boot camp has significantly expanded my skills, teaching me everything from simple programming techniques to more advanced methods for writing efficient code. Throughout the course, I’ve completed several projects with support from tutors and online resources, including a weather app, a snake game, a calculator, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <p class="text-section2">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                <h2 class="skills-sub-head">Frontend Development</h2>
+                <div class="article-container">
+                    <article><img src="./images/checkmark.png" alt="checkmart icon" class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article><img src="./images/checkmark.png" alt="checkmart icon" class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article><img src="./images/checkmark.png" alt="checkmart icon" class="icon">
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Beginner</p>
+                        </div>
+                    </article>
+                    <article><img src="./images/checkmark.png" alt="checkmart icon" class="icon">
+                        <div>
+                            <h3>TypeScript</h3>
+                            <p>Beginner</p>
+                        </div>
+                    </article>
+                    
+                </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-head">Backend Development</h2>
+                    <div class="article-container">
+                        <article><img src="./images/checkmark.png" alt="checkmart icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article><img src="./images/checkmark.png" alt="checkmart icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article><img src="./images/checkmark.png" alt="checkmart icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project">
+        <p class="text-section2">Browse My Recent</p>
+        <h1 class="title">Project</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/calculator_app.png" alt="project 1" class="project-img">
+                    </div>
+                    <h2 class="skills-sub-head project-title">Project-one</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color1 project-btn" onclick="location.href='https://github.com/ris3-dev/calculator'">GitHub</button>
+                        <button class="btn btn-color1 project-btn" onclick="location.href='https://github.com/ris3-dev/calculator'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/project_weather.png" alt="project 2" class="project-img">
+                    </div>
+                    <h2 class="skills-sub-head project-title">Project-two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color1 project-btn" onclick="location.href='https://github.com/ris3-dev/weatherApp'">GitHub</button>
+                        <button class="btn btn-color1 project-btn" onclick="location.href='https://github.com/ris3-dev/weatherApp'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/game_snake.png" alt="project 3" class="project-img">
+                    </div>
+                    <h2 class="skills-sub-head project-title">Project-three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color1 project-btn" onclick="location.href='https://github.com/ris3-dev/snake_game'">GitHub</button>
+                        <button class="btn btn-color1 project-btn" onclick="location.href='https://github.com/ris3-dev/snake_game'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <p class="text-section2">Get in touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info">
+            <div class="contact-container">
+                <img src="./images/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:rishithapa03@gmail.com">Email Me</a></p> 
+            </div>
+            <div class="contact-container">
+                <img src="./images/linkedin.png" alt="linked icon" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/rishi-t-51639a244/" target="_blank">LinkedIn Page</a></p> 
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Rishi Thapa. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
